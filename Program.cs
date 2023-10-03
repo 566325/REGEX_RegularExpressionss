@@ -6,8 +6,8 @@ namespace RegexDemo
     {
         static void Main(string[] args)
         {
-            Mobile_Formate.Check_Mobile_Formate();
-
+            //Mobile_Formate.Check_Mobile_Formate();
+            PassWord.CheckPassWord();
 
             //Console.WriteLine("Regex Demo");
             //Console.WriteLine("Please select Options : \n" +
@@ -33,7 +33,7 @@ namespace RegexDemo
             //}
             //ValidAndInvaliMails.CheckValidEmail();
             //ValidFirstName.ValidFName();
-            LastName.ValidLastName();
+            //LastName.ValidLastName();
 
 
 
