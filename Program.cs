@@ -1,9 +1,14 @@
-﻿namespace RegexDemo
+﻿using System.Xml.Linq;
+
+namespace RegexDemo
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Mobile_Formate.Check_Mobile_Formate();
+
+
             //Console.WriteLine("Regex Demo");
             //Console.WriteLine("Please select Options : \n" +
             //    "1.To Check For first Name  \n" +
