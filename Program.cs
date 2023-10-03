@@ -26,7 +26,8 @@
             //        break;
 
             //}
-            ValidAndInvaliMails.ValidEmail();
+            //ValidAndInvaliMails.CheckValidEmail();
+            ValidFirstName.ValidFName();
 
 
 
