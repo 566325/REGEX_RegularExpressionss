@@ -13,7 +13,7 @@ namespace RegexDemo
         {
             Console.WriteLine("Enter the PassWord");
             string PassWord = Console.ReadLine();
-            string namePattern = "^[A-Za-z0-9]{8,20}$";
+            string namePattern = "^(?=.*[A-Z])(?=.*[a-z]{8,}).*$";
             Regex regexobj = new Regex(namePattern);
             if (regexobj.IsMatch(PassWord))
             {
